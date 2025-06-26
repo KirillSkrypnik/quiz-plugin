@@ -23,7 +23,6 @@ jQuery(document).ready(function ($) {
         });
         
         formData.push({name: 'quizResults', value: JSON.stringify(newArr)});
-        console.log('xx');
         
         $.ajax({
             url: qu_feedback_object.url,
